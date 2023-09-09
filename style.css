@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+.stars{
+	position: relative;
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	box-shadow: 50px 30px white,
+    100px 580px white,
+    80px 520px white,
+    300px 20px white,
+    250px 330px white,
+    200px 50px white,
+    150px 100px white,
+    300px 300px white,
+    200px 500px white,
+    120px 200px white;
+    animation: anim-stars 10s infinite alternate ;
+
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0, #120c56, #000000);
+  }
+  
+  @keyframes anim-stars {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-150px);
+    }
+}
+h1{
+    justify-self: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
